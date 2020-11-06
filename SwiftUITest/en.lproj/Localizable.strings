@@ -1,3 +1,9 @@
+/* 
+  ContentView.strings
+  SwiftUITest
 
+  Created by Everton Miranda Vitório on 05/11/20.
+  
+*/
 
-"string_key" = "Oi"
+"string_key" = "Oi";

@@ -13,6 +13,7 @@
 		AC124C9D2554A5E400AA8403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC124C9C2554A5E400AA8403 /* Preview Assets.xcassets */; };
 		AC124CA82554A5E400AA8403 /* SwiftUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC124CA72554A5E400AA8403 /* SwiftUITestTests.swift */; };
 		AC124CB32554A5E400AA8403 /* SwiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC124CB22554A5E400AA8403 /* SwiftUITestUITests.swift */; };
+		ACF7224C2554CC2C00DBDD85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACF7224E2554CC2C00DBDD85 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AC124CAE2554A5E400AA8403 /* SwiftUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC124CB22554A5E400AA8403 /* SwiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestUITests.swift; sourceTree = "<group>"; };
 		AC124CB42554A5E400AA8403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF7224D2554CC2C00DBDD85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AC124C992554A5E400AA8403 /* Assets.xcassets */,
 				AC124C9E2554A5E400AA8403 /* Info.plist */,
 				AC124C9B2554A5E400AA8403 /* Preview Content */,
+				ACF7224E2554CC2C00DBDD85 /* Localizable.strings */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF7224C2554CC2C00DBDD85 /* Localizable.strings in Resources */,
 				AC124C9D2554A5E400AA8403 /* Preview Assets.xcassets in Resources */,
 				AC124C9A2554A5E400AA8403 /* Assets.xcassets in Resources */,
 			);
@@ -294,6 +298,17 @@
 			targetProxy = AC124CAF2554A5E400AA8403 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF7224E2554CC2C00DBDD85 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF7224D2554CC2C00DBDD85 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AC124CB52554A5E400AA8403 /* Debug */ = {
